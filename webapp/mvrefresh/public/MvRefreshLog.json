@@ -1,0 +1,82 @@
+[
+  {
+    "owner":"HR",
+    "mvName":"DEP_MV",
+    "startDate":"26.04.2020 11:59:15",
+    "endDate":"26.04.2020 12:00:26",
+    "dependencyPath":"HR.EMP_DETAILS_MV/HR.DEP_MV",
+    "priority":10
+  },
+  {
+    "owner":"HR",
+    "mvName":"EMP_MV",
+    "startDate":"26.04.2020 11:59:20",
+    "endDate":"26.04.2020 12:01:50",
+    "dependencyPath":"HR.EMP_DETAILS_MV/HR.EMP_MV",
+    "priority":10
+  },
+  {
+    "owner":"HR",
+    "mvName":"JOBS_MV",
+    "startDate":"26.04.2020 11:59:25",
+    "endDate":"26.04.2020 12:00:26",
+    "dependencyPath":"HR.JOBS_HISTORY_MV4/HR.JOBS_HISTORY_MV3/HR.JOBS_HISTORY_MV2/HR.JOBS_MV",
+    "priority":9
+  },
+  {
+    "owner":"HR",
+    "mvName":"JOBS_HISTORY_MV4",
+    "startDate":"26.04.2020 12:01:18",
+    "endDate":"26.04.2020 12:01:28",
+    "dependencyPath":null,
+    "priority":9
+  },
+  {
+    "owner":"HR",
+    "mvName":"JOBS_HISTORY_MV3",
+    "startDate":"26.04.2020 12:01:10",
+    "endDate":"26.04.2020 12:01:24",
+    "dependencyPath":"HR.JOBS_HISTORY_MV4/HR.JOBS_HISTORY_MV3",
+    "priority":9
+  },
+  {
+    "owner":"HR",
+    "mvName":"JOBS_HISTORY_MV2",
+    "startDate":"26.04.2020 12:00:40",
+    "endDate":"26.04.2020 12:00:51",
+    "dependencyPath":"HR.JOBS_HISTORY_MV4/HR.JOBS_HISTORY_MV3/HR.JOBS_HISTORY_MV2",
+    "priority":9
+  },
+  {
+    "owner":"HR",
+    "mvName":"EMP_DETAILS_MV",
+    "startDate":"26.04.2020 12:01:27",
+    "endDate":"26.04.2020 12:01:32",
+    "dependencyPath":"HR.EMP_DETAILS_JOB_HISTORY_MV/HR.EMP_JOB_HISTORY_MV/HR.JOBS_HISTORY_MV/HR.EMP_DETAILS_MV",
+    "priority":null
+  },
+  {
+    "owner":"HR",
+    "mvName":"EMP_JOB_HISTORY_MV",
+    "startDate":"26.04.2020 12:01:36",
+    "endDate":"26.04.2020 12:01:42",
+    "dependencyPath":null,
+    "priority":null
+  },
+  {
+    "owner":"HR",
+    "mvName":"JOBS_HISTORY_MV",
+    "startDate":"26.04.2020 12:01:31",
+    "endDate":"26.04.2020 12:01:33",
+    "dependencyPath":"HR.EMP_JOB_HISTORY_MV/HR.JOBS_HISTORY_MV",
+    "priority":null
+  },
+  {
+    "owner":"HR",
+    "mvName":"EMP_DETAILS_JOB_HISTORY_MV",
+    "startDate":"26.04.2020 12:01:41",
+    "endDate":"26.04.2020 12:01:43",
+    "dependencyPath":null,
+    "priority":null
+  }
+]
